@@ -1,0 +1,14 @@
+# This is the main configuration file for your Hugo website
+
+baseURL = "http://localhost:1313/"
+languageCode = "en-us"
+title = "Algorithms in Abali"
+theme = "book"
+
+# Book theme settings
+[params]
+  BookTheme = "auto"
+
+
+[markup.goldmark.renderer]
+  unsafe = true

@@ -1,0 +1,17 @@
+# Hugo Generated files - NEVER COMMIT THESE
+public/
+resources/
+.hugo_build.lock
+
+# Temporary debugging folders from our session
+/layouts_DISABLED/
+
+# Tool-specific folders (like the .qodo folder in your project)
+.qodo/
+
+# Ignoring VS Code files & folders...
+.vscode/
+
+# Standard OS and editor files
+.DS_Store
+Thumbs.db
