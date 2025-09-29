@@ -1,0 +1,8 @@
+# Ignoring OS-related files & folders...
+/**/.DS_Store
+
+# Ignoring tools specific files & folders...
+/.qodo
+/.app/node_modules/
+/.app/dist/
+/.app/.parcel-cache/

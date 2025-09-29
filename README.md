@@ -1,17 +1,49 @@
-# Eleventy Notes
+---
+---
 
-**Eleventy Notes is currently in beta. If you find any bugs or have any suggestions, please [open an issue](https://github.com/rothsandro/eleventy-notes/issues).**
+# Credits
 
-Eleventy Notes is an opinionated template for publishing your personal notes, documentation, or even your blog! Built with [Eleventy](https://11ty.dev/), the powerful static site generator, Eleventy Notes is packed with features you'll love.
+In order to maake a website for implemented algorithm in [Abali pseudocode](), we used the following tools:
 
-With Eleventy Notes, you can:
+**Eleventy**
 
-- ✅ Create Wikilinks and backlinks to easily navigate your content
-- ✅ Organize your content with Tags for easy searching and filtering
-- ✅ Quickly find what you need with a client-side search
-- ✅ Choose from two Themes and multiple color schemes to match your style
-- ✅ Customize your Sidebar with support for folders and subfolders
-- ✅ Enjoy a lightweight and fast experience, with minimal JavaScript
-- ... and much more!
+[Eleventy](https://www.11ty.dev) is a Static Site Generator (SSG) to convert a fleet of Markdown files into a static web site.
 
-Whether you're a blogger, developer, or just someone who loves to write, Eleventy Notes has everything you need to publish your content. So what are you waiting for? Get started today by reading our [Getting started](https://eleventy-notes.sandroroth.com/n/getting-started/) guide and start sharing your thoughts with the world!
+**Eleventy Notes**
+
+Currently in beta, [Eleventy Notes](https://github.com/rothsandro/eleventy-notes) is a theme for the Eleventy engine.
+
+**Google Gemini**
+
+A Large Language Model (LLM), developed by Google, is available at [Google AI Studio](https://aistudio.google.com/prompts/new_chat).
+
+# How to Run
+
+1. Make a folder for the project (`proj_dir`).
+
+2. Change folder to it:
+
+    ```
+    cd path/to/proj_dir
+    ```
+
+3. Clone the repository in the project folder:
+
+    ```
+    proj_dir> git clone https://github.com/megacodist/algorithms.git .
+    ```
+
+4. After cloning this GitHub repository into your `proj_dir`, change directory to `.app/`, install dependencies, and run the local server:
+
+    ```
+    proj_dir> cd .app/
+    proj_dir/.app> npm install
+    proj_dir/.app> npm start
+    ```
+
+    Or alternatively in the project root:
+
+    ```
+    proj_dir> npm install --prefix .app/
+    proj_dir> npm start --prefix .app/
+    ```

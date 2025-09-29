@@ -1,23 +1,60 @@
 ---
-navTitle: Home
-title: Eleventy Notes
-headline: Welcome to Eleventy Notes
-panel: false
-nextPage: "[[Getting started]]"
+date: "2025-09-25T19:36:54+03:30"
+title: "Algorithms in Abali"
+description: "I'm megacodist"
+menu_title: "Home"
+draft: false
 ---
 
-Welcome to **Eleventy Notes**, an opinionated template for publishing your personal notes, documentation, or even your blog! Built with [Eleventy](https://11ty.dev/), the powerful static site generator, Eleventy Notes is packed with features you'll love.
+**Algorithms in Abali** is a curated, living collection of fundamental algorithms implemented in Abali pseudocode, explained from first principles. This site is built for clarity, practical implementation, and deep understanding.
 
-With Eleventy Notes, you can:
+## Jump In
 
-- ✅ Create [[Wikilinks]] and backlinks to easily navigate your content
-- ✅ Organize your content with [[Tags]] for easy searching and filtering
-- ✅ Quickly find what you need with a [[Search|client-side search]]
-- ✅ Choose from two [[Themes]] and multiple color schemes to match your style
-- ✅ Customize your [[Sidebar]] with support for folders and subfolders
-- ✅ Enjoy a lightweight and fast experience, with minimal JavaScript
-- ... and much more!
+This collection is organized by topic. Select a category below to begin exploring.
 
-Whether you're a blogger, developer, or just someone who loves to write, Eleventy Notes has everything you need to publish your content. So what are you waiting for? Get started today by reading our [[Getting started]] guide and start sharing your thoughts with the world!
+{{< columns >}}
+### 📚 Data Structures
+*   [Arrays](/data-structures/arrays/)
+*   [Linked Lists](/data-structures/linked-lists/)
+*   [Stacks & Queues](/data-structures/stacks-queues/)
+*   [Hash Tables](/data-structures/hash-tables/)
+*   [Trees & Tries](/data-structures/trees/)
+*   [Heaps](/data-structures/heaps/)
+<--->
+### 📈 Sorting & Searching
+*   [Insertion Sort](/sorting-algorithms/insertion-sort/)
+*   [Mergesort](/sorting-algorithms/mergesort/)
+*   [Quicksort](/sorting-algorithms/quicksort/)
+*   [Binary Search](/searching-algorithms/binary-search/)
+<--->
+### 🧭 Graph Algorithms
+*   [Breadth-First Search (BFS)](/graph-algorithms/bfs/)
+*   [Depth-First Search (DFS)](/graph-algorithms/dfs/)
+*   [Dijkstra's Algorithm](/graph-algorithms/dijkstra/)
+*   [A* Search](/graph-algorithms/a-star/)
+{{< /columns >}}
 
-Built with ❤️ by [Sandro Roth](https://sandroroth.com/) • [Third-party license](./third-party-license.txt)
+---
+
+## Algorithm Spotlight
+
+{{< hint info >}}
+### **Dijkstra's Algorithm**
+A classic and powerful algorithm for finding the shortest paths between nodes in a weighted graph. It forms the conceptual basis for many real-world routing and network optimization problems.
+
+[Explore Dijkstra's Algorithm &rarr;](/graph-algorithms/dijkstra/)
+{{< /hint >}}
+
+## Our Philosophy
+
+This knowledge base adheres to three core principles:
+
+*   **Clarity Over Brevity:** Explanations are written to be understood, not just to be concise. We unpack the "why" behind the "how."
+*   **Practical Code:** Every algorithm is accompanied by a clean, commented, and practical implementation in a modern programming language.
+*   **First Principles:** We build complex ideas from simple foundations, ensuring no logical leaps are left unexplained.
+
+---
+
+> "The art of programming is the art of organizing complexity."
+>
+> — Edsger W. Dijkstra

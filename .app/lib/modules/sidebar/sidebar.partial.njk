@@ -18,30 +18,6 @@
           <span>{{ (indexNote.data.navTitle or indexNote.data.title) if indexNote else ('sidebar.sections.main.home_link' | t) }}</span>
         </a>
       </li>
-      {% if collections.tags.length %}
-        <li>
-          <a
-            href="/tags/"
-            {{ '/tags/' | ariaCurrent }}
-            class="nav-list__link"
-            lang="{% uiLang %}"
-          >
-            {{ 'hash' | iconRef | safe }}
-            <span>{{ 'sidebar.sections.main.tags_link' | t }}</span>
-          </a>
-        </li>
-      {% endif %}
-      <li>
-        <a
-          href="/search/"
-          {{ '/search/' | ariaCurrent }}
-          class="nav-list__link"
-          lang="{% uiLang %}"
-        >
-          {{ 'search' | icon | safe }}
-          <span>{{ 'sidebar.sections.main.search_link' | t }}</span>
-        </a>
-      </li>
     </ul>
   </nav>
 
