@@ -3,6 +3,7 @@
 
 # Ignoring tools specific files & folders...
 /.qodo
+/.obsidian
 /.app/node_modules/
 /.app/dist/
 /.app/.parcel-cache/

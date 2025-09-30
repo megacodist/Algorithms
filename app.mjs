@@ -7,7 +7,7 @@ export default defineConfig({
     "Abali pseudocode, pseudocode examples, algorithm tutorials",
   lang: "en",
   editThisNote: {
-    url: "https://github.com/megacodist/Algorithms/edit/main/{{file}}",
+    url: "https://github.com/megacodist/algorithms/edit/main/{{file}}",
   },
   staticAssets: {
     paths: {
@@ -16,6 +16,9 @@ export default defineConfig({
     },
   },
   ignores: ["README.md", "draft.md"],
+  notes: {
+    pathPrefix: "/n/",
+  },
   customProperties: {
     properties: [
       {
@@ -26,20 +29,33 @@ export default defineConfig({
           },
         },
       },
+      {
+        name: "author",
+        label: "Written By"
+      },
+      {
+        name: "updatedOn",
+        label: "Updated on",
+        options: {
+          date: {
+            locale: "en-US",
+            format: {
+              dateStyle: "medium",
+              timeStyle: "short",  // Optional: Adds time (e.g., "Sep 25, 2025, 7:51 AM")
+              timeZone: "UTC"  // Forces UTC display regardless of user's locale
+            }
+          }
+        }
+      },
     ],
   },
   sidebar: {
     links: [
       {
-        url: "https://github.com/megacodist/Algorithms",
+        url: "https://github.com/megacodist/algorithms",
         label: "GitHub / Support",
         icon: "github",
       },
-      //{
-      //  url: "https://www.buymeacoffee.com/sandroroth",
-      //  label: "Buy me a coffee",
-      //  icon: "coffee",
-      //},
     ],
     sections: [
       {
@@ -56,6 +72,14 @@ export default defineConfig({
         ],
       },
     ],
+  },
+  panel: {
+    tableOfContents: true,
+    tags: true,
+    customProperties: true,
+    incomingLinks: true,
+    outgoingLinks: true,
+    externalLinks: true,
   },
   tags: {
     map: {
